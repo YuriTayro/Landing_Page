@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.title_sideleft{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title_sideright{
+    display: flex;
+    color: white;
+}
+.price{
+    padding-top: 20px;
+    padding-right: 60px;
+}
+.button{
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #2189ff;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:12px ;
+}
+.menu{
+    height: 35px;
+    width: 100%;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+.menu a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftside{
+    margin-top: 110px;
+    margin-left: 125px;
+}
+.rightside{
+    width: 450px;
+}
+/*.widget{
+    flex: 1;
+}*/
+.widget_up, .widget_middle, .widget_bottom{
+    display: flex;
+}
+.widget_title{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.widget_subtitle{
+    font-size: 10px;
+}
+.widget_subtitleBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    margin-right: 20px;
+}
+#link1{
+    padding-right: 10px;
+}
+#link1, #link2, a{
+    text-decoration: none;
+    color: #68aede;
+    font-size: 13px;
+}
+.widget_middle li{
+    font-size: 13px;
+    padding-top: 8px;
+}
+.color{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.memory{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
